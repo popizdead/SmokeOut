@@ -8,10 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		11004DE9280A143E008C2E8B /* SmokeOut WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3989C2BD2809FAA8003AFAD1 /* SmokeOut WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11004DEE280A175E008C2E8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11004DED280A175E008C2E8B /* GoogleService-Info.plist */; };
+		11004DF2280A1D9C008C2E8B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004DF0280A1D9C008C2E8B /* AuthViewController.swift */; };
+		11004DF3280A1D9C008C2E8B /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11004DF1280A1D9C008C2E8B /* AuthViewController.xib */; };
+		11004DF6280A1DCA008C2E8B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004DF5280A1DCA008C2E8B /* Coordinator.swift */; };
+		11004DFA280A1DF5008C2E8B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004DF9280A1DF5008C2E8B /* AuthService.swift */; };
+		11004E00280A2527008C2E8B /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004DFF280A2527008C2E8B /* UIViewController+Keyboard.swift */; };
+		11004E04280A2588008C2E8B /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E03280A2588008C2E8B /* AuthViewModel.swift */; };
+		11004E07280A28E9008C2E8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E06280A28E9008C2E8B /* Constants.swift */; };
+		11004E0A280A2ADE008C2E8B /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E09280A2ADE008C2E8B /* AuthCoordinator.swift */; };
+		11004E0C280A2C40008C2E8B /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E0B280A2C3F008C2E8B /* UIViewController+Alert.swift */; };
+		11004E10280A2D9F008C2E8B /* AuthKnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E0E280A2D9F008C2E8B /* AuthKnowledgeViewController.swift */; };
+		11004E11280A2D9F008C2E8B /* AuthKnowledgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11004E0F280A2D9F008C2E8B /* AuthKnowledgeViewController.xib */; };
+		11004E14280A3217008C2E8B /* UIViewController+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E13280A3217008C2E8B /* UIViewController+LoadingIndicator.swift */; };
+		305C3E28178CA944F7E5DCDE /* Pods_SmokeOut_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FA6BAED1324F1214857B04 /* Pods_SmokeOut_WatchKit_App.framework */; };
 		3989C29F2809FAA5003AFAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C29E2809FAA5003AFAD1 /* AppDelegate.swift */; };
 		3989C2A12809FAA5003AFAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2A02809FAA5003AFAD1 /* SceneDelegate.swift */; };
-		3989C2A32809FAA5003AFAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2A22809FAA5003AFAD1 /* ViewController.swift */; };
-		3989C2A62809FAA5003AFAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3989C2A42809FAA5003AFAD1 /* Main.storyboard */; };
 		3989C2A82809FAA6003AFAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3989C2A72809FAA6003AFAD1 /* Assets.xcassets */; };
 		3989C2AB2809FAA6003AFAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3989C2A92809FAA6003AFAD1 /* LaunchScreen.storyboard */; };
 		3989C2B02809FAA7003AFAD1 /* SmokeOut WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3989C2AF2809FAA7003AFAD1 /* SmokeOut WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -22,6 +34,8 @@
 		3989C2C72809FAA8003AFAD1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2C62809FAA8003AFAD1 /* NotificationController.swift */; };
 		3989C2C92809FAA8003AFAD1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2C82809FAA8003AFAD1 /* ComplicationController.swift */; };
 		3989C2CB2809FAA9003AFAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3989C2CA2809FAA9003AFAD1 /* Assets.xcassets */; };
+		67AFE9F0A572C9A38EB7B40D /* Pods_SmokeOut_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA13EC923339E941EEC76D2 /* Pods_SmokeOut_WatchKit_Extension.framework */; };
+		F363AA1BC66A07AB82913890 /* Pods_SmokeOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D047E30D5B8F8C0C07E05A35 /* Pods_SmokeOut.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,11 +81,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11004DED280A175E008C2E8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11004DF0280A1D9C008C2E8B /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		11004DF1280A1D9C008C2E8B /* AuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		11004DF5280A1DCA008C2E8B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		11004DF9280A1DF5008C2E8B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		11004DFF280A2527008C2E8B /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		11004E03280A2588008C2E8B /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		11004E06280A28E9008C2E8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		11004E09280A2ADE008C2E8B /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		11004E0B280A2C3F008C2E8B /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		11004E0E280A2D9F008C2E8B /* AuthKnowledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthKnowledgeViewController.swift; sourceTree = "<group>"; };
+		11004E0F280A2D9F008C2E8B /* AuthKnowledgeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthKnowledgeViewController.xib; sourceTree = "<group>"; };
+		11004E13280A3217008C2E8B /* UIViewController+LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LoadingIndicator.swift"; sourceTree = "<group>"; };
+		227C34ED5FB5D9343B60998C /* Pods-SmokeOut WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-SmokeOut WatchKit App/Pods-SmokeOut WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		2A807A8F74419A2F3D5B90E1 /* Pods-SmokeOut WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-SmokeOut WatchKit App/Pods-SmokeOut WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		3989C29B2809FAA5003AFAD1 /* SmokeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmokeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3989C29E2809FAA5003AFAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3989C2A02809FAA5003AFAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3989C2A22809FAA5003AFAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3989C2A52809FAA5003AFAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3989C2A72809FAA6003AFAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3989C2AA2809FAA6003AFAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3989C2AC2809FAA6003AFAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +113,13 @@
 		3989C2CA2809FAA9003AFAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3989C2CC2809FAA9003AFAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3989C2CD2809FAA9003AFAD1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6E0C1E802F4AEF8A12515874 /* Pods-SmokeOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut.debug.xcconfig"; path = "Target Support Files/Pods-SmokeOut/Pods-SmokeOut.debug.xcconfig"; sourceTree = "<group>"; };
+		8DA13EC923339E941EEC76D2 /* Pods_SmokeOut_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmokeOut_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983444C1A51E3F53216DFD66 /* Pods-SmokeOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut.release.xcconfig"; path = "Target Support Files/Pods-SmokeOut/Pods-SmokeOut.release.xcconfig"; sourceTree = "<group>"; };
+		D047E30D5B8F8C0C07E05A35 /* Pods_SmokeOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmokeOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FA6BAED1324F1214857B04 /* Pods_SmokeOut_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmokeOut_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09722CF994B869049DDB541 /* Pods-SmokeOut WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-SmokeOut WatchKit Extension/Pods-SmokeOut WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		FDFBA043999FE4C18A45E2B9 /* Pods-SmokeOut WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-SmokeOut WatchKit Extension/Pods-SmokeOut WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F363AA1BC66A07AB82913890 /* Pods_SmokeOut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +135,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67AFE9F0A572C9A38EB7B40D /* Pods_SmokeOut_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1C3AE9A2DC7AA955524998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305C3E28178CA944F7E5DCDE /* Pods_SmokeOut_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +153,136 @@
 		11004DE8280A143E008C2E8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D047E30D5B8F8C0C07E05A35 /* Pods_SmokeOut.framework */,
+				D9FA6BAED1324F1214857B04 /* Pods_SmokeOut_WatchKit_App.framework */,
+				8DA13EC923339E941EEC76D2 /* Pods_SmokeOut_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11004DEF280A1CF9008C2E8B /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				3989C29E2809FAA5003AFAD1 /* AppDelegate.swift */,
+				3989C2A02809FAA5003AFAD1 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		11004DF4280A1DA2008C2E8B /* AuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				11004E05280A258D008C2E8B /* ViewModel */,
+				11004E02280A2565008C2E8B /* Views */,
+			);
+			path = AuthScreen;
+			sourceTree = "<group>";
+		};
+		11004DF7280A1DCE008C2E8B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				11004DF5280A1DCA008C2E8B /* Coordinator.swift */,
+				11004E09280A2ADE008C2E8B /* AuthCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		11004DF8280A1DD8008C2E8B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				11004E0D280A2D66008C2E8B /* AuthFlow */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		11004DFB280A1DF8008C2E8B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11004DF7280A1DCE008C2E8B /* Coordinator */,
+				11004DFE280A20DF008C2E8B /* Auth */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11004DFC280A20AA008C2E8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3989C2A72809FAA6003AFAD1 /* Assets.xcassets */,
+				3989C2A92809FAA6003AFAD1 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11004DFD280A20B5008C2E8B /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				11004E08280A28F2008C2E8B /* Constants */,
+				11004DEF280A1CF9008C2E8B /* AppDelegates */,
+				11004DFC280A20AA008C2E8B /* Resources */,
+				11004E01280A252A008C2E8B /* Extensions */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		11004DFE280A20DF008C2E8B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				11004DF9280A1DF5008C2E8B /* AuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		11004E01280A252A008C2E8B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11004DFF280A2527008C2E8B /* UIViewController+Keyboard.swift */,
+				11004E0B280A2C3F008C2E8B /* UIViewController+Alert.swift */,
+				11004E13280A3217008C2E8B /* UIViewController+LoadingIndicator.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11004E02280A2565008C2E8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11004DF0280A1D9C008C2E8B /* AuthViewController.swift */,
+				11004DF1280A1D9C008C2E8B /* AuthViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11004E05280A258D008C2E8B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11004E03280A2588008C2E8B /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11004E08280A28F2008C2E8B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				11004E06280A28E9008C2E8B /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		11004E0D280A2D66008C2E8B /* AuthFlow */ = {
+			isa = PBXGroup;
+			children = (
+				11004DF4280A1DA2008C2E8B /* AuthScreen */,
+				11004E12280A2DA5008C2E8B /* AuthKnowledge */,
+			);
+			path = AuthFlow;
+			sourceTree = "<group>";
+		};
+		11004E12280A2DA5008C2E8B /* AuthKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				11004E0E280A2D9F008C2E8B /* AuthKnowledgeViewController.swift */,
+				11004E0F280A2D9F008C2E8B /* AuthKnowledgeViewController.xib */,
+			);
+			path = AuthKnowledge;
 			sourceTree = "<group>";
 		};
 		3989C2922809FAA5003AFAD1 = {
@@ -121,6 +293,7 @@
 				3989C2C12809FAA8003AFAD1 /* SmokeOut WatchKit Extension */,
 				3989C29C2809FAA5003AFAD1 /* Products */,
 				11004DE8280A143E008C2E8B /* Frameworks */,
+				9233D5BDB83BFD1B0CB8036F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,13 +310,11 @@
 		3989C29D2809FAA5003AFAD1 /* SmokeOut */ = {
 			isa = PBXGroup;
 			children = (
-				3989C29E2809FAA5003AFAD1 /* AppDelegate.swift */,
-				3989C2A02809FAA5003AFAD1 /* SceneDelegate.swift */,
-				3989C2A22809FAA5003AFAD1 /* ViewController.swift */,
-				3989C2A42809FAA5003AFAD1 /* Main.storyboard */,
-				3989C2A72809FAA6003AFAD1 /* Assets.xcassets */,
-				3989C2A92809FAA6003AFAD1 /* LaunchScreen.storyboard */,
+				11004DFB280A1DF8008C2E8B /* Services */,
+				11004DF8280A1DD8008C2E8B /* Screens */,
+				11004DFD280A20B5008C2E8B /* Utilites */,
 				3989C2AC2809FAA6003AFAD1 /* Info.plist */,
+				11004DED280A175E008C2E8B /* GoogleService-Info.plist */,
 			);
 			path = SmokeOut;
 			sourceTree = "<group>";
@@ -171,6 +342,19 @@
 			path = "SmokeOut WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		9233D5BDB83BFD1B0CB8036F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C1E802F4AEF8A12515874 /* Pods-SmokeOut.debug.xcconfig */,
+				983444C1A51E3F53216DFD66 /* Pods-SmokeOut.release.xcconfig */,
+				227C34ED5FB5D9343B60998C /* Pods-SmokeOut WatchKit App.debug.xcconfig */,
+				2A807A8F74419A2F3D5B90E1 /* Pods-SmokeOut WatchKit App.release.xcconfig */,
+				F09722CF994B869049DDB541 /* Pods-SmokeOut WatchKit Extension.debug.xcconfig */,
+				FDFBA043999FE4C18A45E2B9 /* Pods-SmokeOut WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,10 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3989C2D82809FAA9003AFAD1 /* Build configuration list for PBXNativeTarget "SmokeOut" */;
 			buildPhases = (
+				48544805677EEDA2125AE8EE /* [CP] Check Pods Manifest.lock */,
 				3989C2972809FAA5003AFAD1 /* Sources */,
 				3989C2982809FAA5003AFAD1 /* Frameworks */,
 				3989C2992809FAA5003AFAD1 /* Resources */,
 				3989C2D72809FAA9003AFAD1 /* Embed Watch Content */,
+				A2E4358F3EF6470857EC2407 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,8 +383,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3989C2D42809FAA9003AFAD1 /* Build configuration list for PBXNativeTarget "SmokeOut WatchKit App" */;
 			buildPhases = (
+				CE7EE2B599703729B9D83E0A /* [CP] Check Pods Manifest.lock */,
 				3989C2AD2809FAA7003AFAD1 /* Resources */,
 				11004DEC280A143E008C2E8B /* Embed App Extensions */,
+				4C1C3AE9A2DC7AA955524998 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +402,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3989C2D02809FAA9003AFAD1 /* Build configuration list for PBXNativeTarget "SmokeOut WatchKit Extension" */;
 			buildPhases = (
+				DACF0C7F6B233964B87A840A /* [CP] Check Pods Manifest.lock */,
 				3989C2B92809FAA8003AFAD1 /* Sources */,
 				3989C2BA2809FAA8003AFAD1 /* Frameworks */,
 				3989C2BB2809FAA8003AFAD1 /* Resources */,
@@ -273,9 +462,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11004DF3280A1D9C008C2E8B /* AuthViewController.xib in Resources */,
+				11004E11280A2D9F008C2E8B /* AuthKnowledgeViewController.xib in Resources */,
 				3989C2AB2809FAA6003AFAD1 /* LaunchScreen.storyboard in Resources */,
+				11004DEE280A175E008C2E8B /* GoogleService-Info.plist in Resources */,
 				3989C2A82809FAA6003AFAD1 /* Assets.xcassets in Resources */,
-				3989C2A62809FAA5003AFAD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,14 +489,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48544805677EEDA2125AE8EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmokeOut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E4358F3EF6470857EC2407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokeOut/Pods-SmokeOut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokeOut/Pods-SmokeOut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmokeOut/Pods-SmokeOut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7EE2B599703729B9D83E0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmokeOut WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACF0C7F6B233964B87A840A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmokeOut WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3989C2972809FAA5003AFAD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3989C2A32809FAA5003AFAD1 /* ViewController.swift in Sources */,
+				11004DF6280A1DCA008C2E8B /* Coordinator.swift in Sources */,
+				11004E00280A2527008C2E8B /* UIViewController+Keyboard.swift in Sources */,
+				11004DF2280A1D9C008C2E8B /* AuthViewController.swift in Sources */,
+				11004E04280A2588008C2E8B /* AuthViewModel.swift in Sources */,
+				11004DFA280A1DF5008C2E8B /* AuthService.swift in Sources */,
+				11004E14280A3217008C2E8B /* UIViewController+LoadingIndicator.swift in Sources */,
+				11004E0C280A2C40008C2E8B /* UIViewController+Alert.swift in Sources */,
+				11004E10280A2D9F008C2E8B /* AuthKnowledgeViewController.swift in Sources */,
 				3989C29F2809FAA5003AFAD1 /* AppDelegate.swift in Sources */,
 				3989C2A12809FAA5003AFAD1 /* SceneDelegate.swift in Sources */,
+				11004E0A280A2ADE008C2E8B /* AuthCoordinator.swift in Sources */,
+				11004E07280A28E9008C2E8B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,14 +622,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3989C2A42809FAA5003AFAD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3989C2A52809FAA5003AFAD1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3989C2A92809FAA6003AFAD1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -476,6 +754,7 @@
 		};
 		3989C2D12809FAA9003AFAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09722CF994B869049DDB541 /* Pods-SmokeOut WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +786,7 @@
 		};
 		3989C2D22809FAA9003AFAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFBA043999FE4C18A45E2B9 /* Pods-SmokeOut WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +819,7 @@
 		};
 		3989C2D52809FAA9003AFAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227C34ED5FB5D9343B60998C /* Pods-SmokeOut WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -565,6 +846,7 @@
 		};
 		3989C2D62809FAA9003AFAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A807A8F74419A2F3D5B90E1 /* Pods-SmokeOut WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -592,6 +874,7 @@
 		};
 		3989C2D92809FAA9003AFAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0C1E802F4AEF8A12515874 /* Pods-SmokeOut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -602,7 +885,6 @@
 				INFOPLIST_FILE = SmokeOut/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -622,6 +904,7 @@
 		};
 		3989C2DA2809FAA9003AFAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983444C1A51E3F53216DFD66 /* Pods-SmokeOut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -632,7 +915,6 @@
 				INFOPLIST_FILE = SmokeOut/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;

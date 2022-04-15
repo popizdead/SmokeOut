@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>377384281313-48p73blub27to8tcaqifjp5h3hl4v31r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.377384281313-48p73blub27to8tcaqifjp5h3hl4v31r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyClu6hSu5W2F4GtGHnaJD3PaV_TW8JPqjk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>377384281313</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>daniel.SmokeOut</string>
+	<key>PROJECT_ID</key>
+	<string>smokeout-49a17</string>
+	<key>STORAGE_BUCKET</key>
+	<string>smokeout-49a17.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:377384281313:ios:8dab0eace34364af2b03a0</string>
+</dict>
+</plist>
