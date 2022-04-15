@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11004DE9280A143E008C2E8B /* SmokeOut WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3989C2BD2809FAA8003AFAD1 /* SmokeOut WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3989C29F2809FAA5003AFAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C29E2809FAA5003AFAD1 /* AppDelegate.swift */; };
 		3989C2A12809FAA5003AFAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2A02809FAA5003AFAD1 /* SceneDelegate.swift */; };
 		3989C2A32809FAA5003AFAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2A22809FAA5003AFAD1 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		3989C2B02809FAA7003AFAD1 /* SmokeOut WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3989C2AF2809FAA7003AFAD1 /* SmokeOut WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3989C2B62809FAA7003AFAD1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3989C2B42809FAA7003AFAD1 /* Interface.storyboard */; };
 		3989C2B82809FAA8003AFAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3989C2B72809FAA8003AFAD1 /* Assets.xcassets */; };
-		3989C2BE2809FAA8003AFAD1 /* SmokeOut WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3989C2BD2809FAA8003AFAD1 /* SmokeOut WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3989C2C32809FAA8003AFAD1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2C22809FAA8003AFAD1 /* InterfaceController.swift */; };
 		3989C2C52809FAA8003AFAD1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2C42809FAA8003AFAD1 /* ExtensionDelegate.swift */; };
 		3989C2C72809FAA8003AFAD1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2C62809FAA8003AFAD1 /* NotificationController.swift */; };
@@ -42,13 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3989C2D32809FAA9003AFAD1 /* Embed App Extensions */ = {
+		11004DEC280A143E008C2E8B /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3989C2BE2809FAA8003AFAD1 /* SmokeOut WatchKit Extension.appex in Embed App Extensions */,
+				11004DE9280A143E008C2E8B /* SmokeOut WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +106,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11004DE8280A143E008C2E8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3989C2922809FAA5003AFAD1 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +120,7 @@
 				3989C2B32809FAA7003AFAD1 /* SmokeOut WatchKit App */,
 				3989C2C12809FAA8003AFAD1 /* SmokeOut WatchKit Extension */,
 				3989C29C2809FAA5003AFAD1 /* Products */,
+				11004DE8280A143E008C2E8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,7 +198,7 @@
 			buildConfigurationList = 3989C2D42809FAA9003AFAD1 /* Build configuration list for PBXNativeTarget "SmokeOut WatchKit App" */;
 			buildPhases = (
 				3989C2AD2809FAA7003AFAD1 /* Resources */,
-				3989C2D32809FAA9003AFAD1 /* Embed App Extensions */,
+				11004DEC280A143E008C2E8B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -476,9 +484,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SmokeOut WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "SmokeOut WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = SmokeOut_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = SmokeOut_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,14 +494,14 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Daniel.SmokeOut.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.SmokeOut.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -507,9 +515,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SmokeOut WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "SmokeOut WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = SmokeOut_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = SmokeOut_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,7 +525,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Daniel.SmokeOut.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.SmokeOut.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -525,7 +533,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -542,16 +550,16 @@
 				IBSC_MODULE = SmokeOut_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "SmokeOut WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Daniel.SmokeOut;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = daniel.SmokeOut;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Daniel.SmokeOut.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.SmokeOut.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -568,9 +576,9 @@
 				IBSC_MODULE = SmokeOut_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "SmokeOut WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Daniel.SmokeOut;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = daniel.SmokeOut;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Daniel.SmokeOut.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.SmokeOut.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -578,7 +586,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -603,7 +611,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Daniel.SmokeOut;
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.SmokeOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -633,7 +641,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Daniel.SmokeOut;
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.SmokeOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
