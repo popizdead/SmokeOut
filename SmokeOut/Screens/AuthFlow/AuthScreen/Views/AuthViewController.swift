@@ -9,6 +9,7 @@ import UIKit
 import Combine
 
 class AuthViewController: UIViewController {
+    typealias LocalizableLabels = Constants.Labels
     
     //MARK: -Outlets
     @IBOutlet private weak var mailLabel: UILabel!
@@ -37,7 +38,12 @@ class AuthViewController: UIViewController {
         super.viewDidLoad()
         
         bind()
-        self.setupKeyboardHiding()
+        setupVC()
+    }
+    
+    private func setupVC() {
+        setupKeyboardHiding()
+        localize()
     }
     
     //MARK: -Business logic
@@ -68,6 +74,17 @@ class AuthViewController: UIViewController {
         } else {
             self.removeLoadingIndicator()
         }
+    }
+    
+    //MARK: -UI
+    private func localize() {
+        mailLabel.text = LocalizableLabels.mail
+        passwordLabel.text = LocalizableLabels.password
+        
+        mailField.placeholder = LocalizableLabels.enterMail
+        passwordField.placeholder = LocalizableLabels.enterPassword
+        
+        signUpButton.setTitle(LocalizableLabels.signUp, for: .normal)
     }
     
     //MARK: -Actions

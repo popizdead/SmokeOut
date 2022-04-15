@@ -15,7 +15,12 @@ struct Constants {
     }
     
     struct Labels {
-        static let mailFieldLabel = "Mail"
-        static let passwordFieldLabel = "Password"
+        static let mail = "Mail"
+        static let enterMail = "Enter mail"
+        
+        static let password = "Password"
+        static let enterPassword = "Enter password"
+        
+        static let signUp = "Sign up"
     }
 }
