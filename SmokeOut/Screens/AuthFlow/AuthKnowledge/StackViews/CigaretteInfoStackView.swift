@@ -34,11 +34,11 @@ class CigaretteInfoStackView: UIStackView {
     
     //MARK: -Subviews
     private lazy var headerLabel: UILabel = {
-        return UILabel.createLabel(text: "How many ciggaretes in pack?", font: Font.headerFont)
+        return UILabel.createLabel(text: Constants.AuthKnwoledgeScreenLabels.amountPerPackHeader, font: Font.headerFont)
     }()
     
     private lazy var cigarreteStackFieldInput: UIStackView = {
-        let label = UILabel.createLabel(text: "cigarette", font: Font.labelFont)
+        let label = UILabel.createLabel(text: Constants.AuthKnwoledgeScreenLabels.ciggareteAmount, font: Font.labelFont)
         let field = UITextField.createTextField(text: "20", font: Font.fieldFont)
         
         let stackView = UIStackView()

@@ -29,10 +29,11 @@ struct Constants {
         static let cigaretteSegment = "Cigarettes"
         static let tobaccoSegment = "Tobacco"
         
-        static let amountHeader = "How many cigarettes do you smoke per day?"
+        static let amountPerDayHeader = "How many cigarettes do you smoke per day?"
         static let ciggareteAmount = "cigarette"
         static let knowledgeSwitchLabel = "I don't know"
         
+        static let amountPerPackHeader = "How many cigarettes in pack"
         static let priceHeader = "How much does a pack cost?"
     }
 }

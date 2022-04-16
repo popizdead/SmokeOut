@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Combine
 
 class AuthKnowledgeViewController: UIViewController {
     typealias Localize = Constants.AuthKnwoledgeScreenLabels
@@ -39,6 +40,10 @@ class AuthKnowledgeViewController: UIViewController {
     @IBOutlet private weak var priceTextField: UITextField!
     @IBOutlet private weak var currencyTextField: UITextField!
     
+    //MARK: -Properties
+    private var bindings: Set<AnyCancellable> = []
+    private let viewModel = AuthKnowledgeViewModel()
+    
     //MARK: -Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,14 +52,52 @@ class AuthKnowledgeViewController: UIViewController {
         setupUI()
     }
     
+    //MARK: -Configure
     private func setupVC() {
         setupKeyboardHiding()
         localize()
+        
+        bind()
     }
     
     private func setupUI() {
         packTypeSegmentedControl.setFont()
         styleguide()
+    }
+    
+    //MARK: -Business logic
+    private func bind() {
+        viewModel.packTypePublisher
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] state in
+                self?.packTypeChanged(state)
+            }
+            .store(in: &bindings)
+    }
+    
+    private func packTypeChanged(_ state: PackType) {
+        switch state {
+        case .cigarette:
+            setCigaretteState()
+        case .tobacco:
+            setTobaccoState()
+        }
+    }
+    
+    private func setCigaretteState() {
+        if contentStackView.subviews.contains(tobaccoInfoStack) {
+            tobaccoInfoStack.removeFromSuperview()
+        }
+        
+        contentStackView.addArrangedSubview(cigaretteInfoStack)
+    }
+    
+    private func setTobaccoState() {
+        if contentStackView.subviews.contains(cigaretteInfoStack) {
+            cigaretteInfoStack.removeFromSuperview()
+        }
+        
+        contentStackView.addArrangedSubview(tobaccoInfoStack)
     }
     
     //MARK: -UI
@@ -84,10 +127,25 @@ class AuthKnowledgeViewController: UIViewController {
         packTypeSegmentedControl.setTitle(Localize.cigaretteSegment, forSegmentAt: 0)
         packTypeSegmentedControl.setTitle(Localize.tobaccoSegment, forSegmentAt: 1)
         
-        ciggaretePerDayHeaderLabel.text = Localize.amountHeader
+        ciggaretePerDayHeaderLabel.text = Localize.amountPerDayHeader
         cigaretteAmountLabel.text = Localize.ciggareteAmount
         amountKnowledgeLabel.text = Localize.knowledgeSwitchLabel
         
         priceHeaderLabel.text = Localize.priceHeader
+    }
+    
+    //MARK: -Actions
+    @IBAction func packTypeControlChanged(_ sender: Any) {
+        /*
+         Index 0 - Cigarette
+         Index 1 - Tobacco
+         */
+        
+        let newIndex = packTypeSegmentedControl.selectedSegmentIndex
+        if newIndex == 0 {
+            viewModel.segmentedControlChanged(.cigarette)
+        } else {
+            viewModel.segmentedControlChanged(.tobacco)
+        }
     }
 }
