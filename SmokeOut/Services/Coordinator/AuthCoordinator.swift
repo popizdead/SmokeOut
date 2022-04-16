@@ -19,7 +19,7 @@ class AuthCoordinator {
     func start() {
         let viewModel = AuthViewModel(authService: authService, coordinator: self)
         let authVC = AuthViewController(viewModel: viewModel)
-        navigationController.pushViewController(authVC, animated: true)
+        navigationController.pushViewController(AuthKnowledgeViewController(), animated: true)
     }
     
     func goToKnowledgeScreen() {

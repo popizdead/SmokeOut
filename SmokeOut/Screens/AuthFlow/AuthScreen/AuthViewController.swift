@@ -9,7 +9,7 @@ import UIKit
 import Combine
 
 class AuthViewController: UIViewController {
-    typealias LocalizableLabels = Constants.Labels
+    typealias LocalizableLabels = Constants.AuthScreenLabels
     
     //MARK: -Outlets
     @IBOutlet private weak var mailLabel: UILabel!

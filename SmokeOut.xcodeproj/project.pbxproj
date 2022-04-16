@@ -21,6 +21,13 @@
 		11004E10280A2D9F008C2E8B /* AuthKnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E0E280A2D9F008C2E8B /* AuthKnowledgeViewController.swift */; };
 		11004E11280A2D9F008C2E8B /* AuthKnowledgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11004E0F280A2D9F008C2E8B /* AuthKnowledgeViewController.xib */; };
 		11004E14280A3217008C2E8B /* UIViewController+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11004E13280A3217008C2E8B /* UIViewController+LoadingIndicator.swift */; };
+		1177EA08280B318500F3CB10 /* UISegmentedControl+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177EA07280B318500F3CB10 /* UISegmentedControl+Font.swift */; };
+		1177EA0A280B32A600F3CB10 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177EA09280B32A600F3CB10 /* UIFont+.swift */; };
+		1177EA0C280B3BCF00F3CB10 /* CigaretteInfoStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177EA0B280B3BCF00F3CB10 /* CigaretteInfoStackView.swift */; };
+		1177EA10280B3CAB00F3CB10 /* Label+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177EA0F280B3CAB00F3CB10 /* Label+.swift */; };
+		1177EA12280B3D0500F3CB10 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177EA11280B3D0500F3CB10 /* UITextField+.swift */; };
+		1177EA14280B3FB200F3CB10 /* Styleguide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177EA13280B3FB200F3CB10 /* Styleguide.swift */; };
+		1177EA17280B407000F3CB10 /* TobaccoInfoStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177EA16280B407000F3CB10 /* TobaccoInfoStackView.swift */; };
 		305C3E28178CA944F7E5DCDE /* Pods_SmokeOut_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FA6BAED1324F1214857B04 /* Pods_SmokeOut_WatchKit_App.framework */; };
 		3989C29F2809FAA5003AFAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C29E2809FAA5003AFAD1 /* AppDelegate.swift */; };
 		3989C2A12809FAA5003AFAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989C2A02809FAA5003AFAD1 /* SceneDelegate.swift */; };
@@ -94,6 +101,13 @@
 		11004E0E280A2D9F008C2E8B /* AuthKnowledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthKnowledgeViewController.swift; sourceTree = "<group>"; };
 		11004E0F280A2D9F008C2E8B /* AuthKnowledgeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthKnowledgeViewController.xib; sourceTree = "<group>"; };
 		11004E13280A3217008C2E8B /* UIViewController+LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LoadingIndicator.swift"; sourceTree = "<group>"; };
+		1177EA07280B318500F3CB10 /* UISegmentedControl+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Font.swift"; sourceTree = "<group>"; };
+		1177EA09280B32A600F3CB10 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		1177EA0B280B3BCF00F3CB10 /* CigaretteInfoStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CigaretteInfoStackView.swift; sourceTree = "<group>"; };
+		1177EA0F280B3CAB00F3CB10 /* Label+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+.swift"; sourceTree = "<group>"; };
+		1177EA11280B3D0500F3CB10 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		1177EA13280B3FB200F3CB10 /* Styleguide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styleguide.swift; sourceTree = "<group>"; };
+		1177EA16280B407000F3CB10 /* TobaccoInfoStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TobaccoInfoStackView.swift; sourceTree = "<group>"; };
 		227C34ED5FB5D9343B60998C /* Pods-SmokeOut WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-SmokeOut WatchKit App/Pods-SmokeOut WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		2A807A8F74419A2F3D5B90E1 /* Pods-SmokeOut WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokeOut WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-SmokeOut WatchKit App/Pods-SmokeOut WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		3989C29B2809FAA5003AFAD1 /* SmokeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmokeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,8 +186,9 @@
 		11004DF4280A1DA2008C2E8B /* AuthScreen */ = {
 			isa = PBXGroup;
 			children = (
-				11004E05280A258D008C2E8B /* ViewModel */,
-				11004E02280A2565008C2E8B /* Views */,
+				11004E03280A2588008C2E8B /* AuthViewModel.swift */,
+				11004DF0280A1D9C008C2E8B /* AuthViewController.swift */,
+				11004DF1280A1D9C008C2E8B /* AuthViewController.xib */,
 			);
 			path = AuthScreen;
 			sourceTree = "<group>";
@@ -199,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				11004DF7280A1DCE008C2E8B /* Coordinator */,
-				11004DFE280A20DF008C2E8B /* Auth */,
+				11004DFE280A20DF008C2E8B /* AuthService */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -216,6 +231,7 @@
 		11004DFD280A20B5008C2E8B /* Utilites */ = {
 			isa = PBXGroup;
 			children = (
+				1177EA15280B3FB700F3CB10 /* Styleguide */,
 				11004E08280A28F2008C2E8B /* Constants */,
 				11004DEF280A1CF9008C2E8B /* AppDelegates */,
 				11004DFC280A20AA008C2E8B /* Resources */,
@@ -224,39 +240,24 @@
 			path = Utilites;
 			sourceTree = "<group>";
 		};
-		11004DFE280A20DF008C2E8B /* Auth */ = {
+		11004DFE280A20DF008C2E8B /* AuthService */ = {
 			isa = PBXGroup;
 			children = (
 				11004DF9280A1DF5008C2E8B /* AuthService.swift */,
 			);
-			path = Auth;
+			path = AuthService;
 			sourceTree = "<group>";
 		};
 		11004E01280A252A008C2E8B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				11004DFF280A2527008C2E8B /* UIViewController+Keyboard.swift */,
-				11004E0B280A2C3F008C2E8B /* UIViewController+Alert.swift */,
-				11004E13280A3217008C2E8B /* UIViewController+LoadingIndicator.swift */,
+				1177EA0E280B3C9500F3CB10 /* UIViewController */,
+				1177EA07280B318500F3CB10 /* UISegmentedControl+Font.swift */,
+				1177EA09280B32A600F3CB10 /* UIFont+.swift */,
+				1177EA0F280B3CAB00F3CB10 /* Label+.swift */,
+				1177EA11280B3D0500F3CB10 /* UITextField+.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		11004E02280A2565008C2E8B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				11004DF0280A1D9C008C2E8B /* AuthViewController.swift */,
-				11004DF1280A1D9C008C2E8B /* AuthViewController.xib */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		11004E05280A258D008C2E8B /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				11004E03280A2588008C2E8B /* AuthViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		11004E08280A28F2008C2E8B /* Constants */ = {
@@ -281,8 +282,36 @@
 			children = (
 				11004E0E280A2D9F008C2E8B /* AuthKnowledgeViewController.swift */,
 				11004E0F280A2D9F008C2E8B /* AuthKnowledgeViewController.xib */,
+				1177EA0D280B3BD300F3CB10 /* StackViews */,
 			);
 			path = AuthKnowledge;
+			sourceTree = "<group>";
+		};
+		1177EA0D280B3BD300F3CB10 /* StackViews */ = {
+			isa = PBXGroup;
+			children = (
+				1177EA0B280B3BCF00F3CB10 /* CigaretteInfoStackView.swift */,
+				1177EA16280B407000F3CB10 /* TobaccoInfoStackView.swift */,
+			);
+			path = StackViews;
+			sourceTree = "<group>";
+		};
+		1177EA0E280B3C9500F3CB10 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11004DFF280A2527008C2E8B /* UIViewController+Keyboard.swift */,
+				11004E0B280A2C3F008C2E8B /* UIViewController+Alert.swift */,
+				11004E13280A3217008C2E8B /* UIViewController+LoadingIndicator.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		1177EA15280B3FB700F3CB10 /* Styleguide */ = {
+			isa = PBXGroup;
+			children = (
+				1177EA13280B3FB200F3CB10 /* Styleguide.swift */,
+			);
+			path = Styleguide;
 			sourceTree = "<group>";
 		};
 		3989C2922809FAA5003AFAD1 = {
@@ -582,13 +611,20 @@
 			files = (
 				11004DF6280A1DCA008C2E8B /* Coordinator.swift in Sources */,
 				11004E00280A2527008C2E8B /* UIViewController+Keyboard.swift in Sources */,
+				1177EA10280B3CAB00F3CB10 /* Label+.swift in Sources */,
 				11004DF2280A1D9C008C2E8B /* AuthViewController.swift in Sources */,
 				11004E04280A2588008C2E8B /* AuthViewModel.swift in Sources */,
+				1177EA17280B407000F3CB10 /* TobaccoInfoStackView.swift in Sources */,
 				11004DFA280A1DF5008C2E8B /* AuthService.swift in Sources */,
+				1177EA12280B3D0500F3CB10 /* UITextField+.swift in Sources */,
 				11004E14280A3217008C2E8B /* UIViewController+LoadingIndicator.swift in Sources */,
 				11004E0C280A2C40008C2E8B /* UIViewController+Alert.swift in Sources */,
+				1177EA0C280B3BCF00F3CB10 /* CigaretteInfoStackView.swift in Sources */,
+				1177EA08280B318500F3CB10 /* UISegmentedControl+Font.swift in Sources */,
 				11004E10280A2D9F008C2E8B /* AuthKnowledgeViewController.swift in Sources */,
 				3989C29F2809FAA5003AFAD1 /* AppDelegate.swift in Sources */,
+				1177EA0A280B32A600F3CB10 /* UIFont+.swift in Sources */,
+				1177EA14280B3FB200F3CB10 /* Styleguide.swift in Sources */,
 				3989C2A12809FAA5003AFAD1 /* SceneDelegate.swift in Sources */,
 				11004E0A280A2ADE008C2E8B /* AuthCoordinator.swift in Sources */,
 				11004E07280A28E9008C2E8B /* Constants.swift in Sources */,

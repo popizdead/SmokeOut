@@ -14,7 +14,7 @@ struct Constants {
         static let general = "Something went wrong"
     }
     
-    struct Labels {
+    struct AuthScreenLabels {
         static let mail = "Mail"
         static let enterMail = "Enter mail"
         
@@ -22,5 +22,17 @@ struct Constants {
         static let enterPassword = "Enter password"
         
         static let signUp = "Sign up"
+    }
+    
+    struct AuthKnwoledgeScreenLabels {
+        static let packTypeHeader = "I'm buying pack of"
+        static let cigaretteSegment = "Cigarettes"
+        static let tobaccoSegment = "Tobacco"
+        
+        static let amountHeader = "How many cigarettes do you smoke per day?"
+        static let ciggareteAmount = "cigarette"
+        static let knowledgeSwitchLabel = "I don't know"
+        
+        static let priceHeader = "How much does a pack cost?"
     }
 }

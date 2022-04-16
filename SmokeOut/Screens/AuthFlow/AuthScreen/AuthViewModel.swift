@@ -30,7 +30,6 @@ class AuthViewModel {
         
         authService.createUser(mail: mail, password: password) { [weak self] isSuccess, errorMessage in
             if isSuccess {
-                self?.statePublisher.value = .initialized
                 self?.coordinator.goToKnowledgeScreen()
             } else {
                 self?.showError(error: errorMessage)
